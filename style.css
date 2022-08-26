@@ -7,12 +7,15 @@ body{
     background: url('sixth.jpg');
     /* background-position: cover; */
     background-repeat: no-repeat;
-    /* height: 740px; */
     background-size:cover;
     color: white;
     font-family: 'Baloo Bhai 2', cursive;
     border: transparent;
     border-radius: 20px;
+    width: 1505px;
+    height: 790px;
+    /* resize: both; */
+    /* overflow: auto; */
 }
 
 .left {
@@ -28,9 +31,12 @@ body{
     top: 0%;
     /* border: 2px solid red; */
     display: inline-block;
-    position: absolute;
-    right: 12px;
-    top: 18px;
+    float: right;
+    position: relative;
+    top: -90px;
+    /* position: absolute; */
+    /* right: 12px; */
+    /* top: 18px; */
 }
 
 .mid {
@@ -43,6 +49,7 @@ body{
     border: 2px solid transparent;
     border-radius: 21px;
     background-color: #0f0a0a78;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -70,6 +77,11 @@ body{
     margin: 5px auto;
     filter: invert(97%);
     width: 60px;
+}
+.left img:hover{
+    filter: invert(0%);
+    border:transparent;
+    border-radius: 20px;
 }
 
 .btn {
@@ -141,6 +153,11 @@ body{
     border-radius: 20px;
     width: 425px;
     filter: invert(95%);
+    border: transparent;
+    border-radius: 20p;
+}
+.logo2 img:hover{
+    filter: invert(0%);
 }
 #firstHeader{
     font-size: 30px;
