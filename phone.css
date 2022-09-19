@@ -1,6 +1,7 @@
 /*navigation */
 #navbar{
     flex-direction: column;
+    position: sticky;
 }
 
 /* home section */
@@ -44,7 +45,7 @@
     width: 80%;
 }
 #contact-box input,#contact-box textarea{
-    width: 80%;     
+    width: 100%;     
     padding: 0.5rem;
     border-radius: 10px;
 }
